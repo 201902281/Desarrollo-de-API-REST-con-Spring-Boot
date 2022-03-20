@@ -1,0 +1,14 @@
+En esta práctica he conectado mis dos formularios con el dos BackEnd.
+La información que proviene de un formulario es validada previamente por html, y después es validada mediante el método de validación bean.
+La información que procede de cada formulario distinto (uno para contactos y otro para clientes), es manejada por controllers diferentes.
+Mediante los controlers, además de POST y GET e incluido que puedas DELETE también.
+
+En el frontend, al enviar los formularios tu no puedes consultar la información enviada, únicamente si accedes como administrador puedes hacer "GET" Y "DELETE" de la información.
+Las alertas que se muestran indican cuantos formularios de cada tipo han sido procesados.
+Si accedes como administrador. Insertando la contraseña "admin", puedas consultar la información procesada en los formularios.
+La información de los formularios se muestra automáticamente al introducir la contraseña correcta y al pulsar correspondiente botón.
+Los elementos se eliminan al introducir el identificador adecuado.
+
+Todos los supuestos no esperados se avisan mediante alertas o mediante el formulario. 
+
+Invito a introducir varios formularios de cada tipo, (fijándose en las alertas que se muestran por pantalla). Posteriormente, acceder en modo administrador y consultar la información. Por último, eliminar entradas mediante el id y apreciar como se actualizan.
